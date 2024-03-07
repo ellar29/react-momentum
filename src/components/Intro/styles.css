@@ -1,0 +1,29 @@
+#intro-container {
+  /* background: black; */
+}
+
+#question1 {
+  padding: 0;
+  margin: 0;
+  color: black;
+  font-size: 50px;
+  font-family: Cutive Mono;
+  border-right: 5px solid;
+  white-space: nowrap; /* Keeps the content on a single line */
+  overflow: hidden;
+  animation: typing 2s, cursor 0.5s step-end infinite;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
