@@ -1,10 +1,13 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Oswald:wght@200..700&display=swap');
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: black;
   background-color: #242424;
 
   font-synthesis: none;
@@ -67,18 +70,23 @@ button:focus-visible {
   }
 }
 
-#intro-container {
-  width: 100vw;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 body {
   background-image: url("./assets/images/beach.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

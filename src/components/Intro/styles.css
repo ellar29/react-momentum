@@ -1,5 +1,9 @@
 #intro-container {
-  /* background: black; */
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #question1 {
@@ -12,6 +16,20 @@
   white-space: nowrap; /* Keeps the content on a single line */
   overflow: hidden;
   animation: typing 2s, cursor 0.5s step-end infinite;
+}
+
+#name-input {
+  background: transparent;
+  border: 0;
+  border-bottom: 2.5px solid black;
+  width: 800px;
+  padding: 10px 20px;
+  font-size: 64px;
+  color: black;
+  font-family: 'Cutive Mono';
+  outline: none;
+  text-align: center;
+  font-weight: bolder;
 }
 
 @keyframes cursor {

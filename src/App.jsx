@@ -6,8 +6,15 @@ import { Quotes } from './components'
 function App() {
   
   return (
-    <div>
+    <div className="main-container">
+      <div className="placeholder-div">
+      </div>
       <Intro stanley="123" id="hey" />
+      <div>
+        <div className="placeholder-div"></div>
+        <Quotes />
+        <div className="placeholder-div"></div>
+      </div>
     </div>
   )
 }

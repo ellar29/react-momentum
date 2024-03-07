@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react"
-import { Quotes } from ".."
 import './styles.css'
 
 export function Quotes() {

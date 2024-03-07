@@ -1,0 +1,10 @@
+.quotes-container {
+  background: rgba(255,255,255,0.7);
+  width: 700px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
