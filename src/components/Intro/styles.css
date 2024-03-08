@@ -18,6 +18,20 @@
   animation: typing 2s, cursor 0.5s step-end infinite;
 }
 
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 726px;
+  }
+}
+
 #name-input {
   background: transparent;
   border: 0;
@@ -32,16 +46,3 @@
   font-weight: bolder;
 }
 
-@keyframes cursor {
-  50% {
-    border-color: transparent;
-  }
-}
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
